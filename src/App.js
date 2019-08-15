@@ -5,20 +5,38 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Inside Out fitness app</h1>
+        <div>
+          <a>Login</a> | <a>Signup</a>
+        </div>
       </header>
+      <section>
+        <h2>Recipes</h2>
+        <div className="recipes">
+          <a href="/">
+            <figure>
+              <img src="https://www.fillmurray.com/150/150" />
+              <figcaption>Quinoa and Kale Salad</figcaption>
+            </figure>
+          </a>
+          <a href="/">
+            <figure>
+              <img src="https://www.fillmurray.com/150/150" />
+              <figcaption>Chicken Tikka Masala</figcaption>
+            </figure>
+          </a>
+          <a href="/">
+            <figure>
+              <img src="https://www.fillmurray.com/150/150" />
+              <figcaption>Creamy Broccoli and Cheddar with Herbs</figcaption>
+            </figure>
+          </a>
+        </div>
+      </section>
+      <section className="exercises">
+        <h2>Exercises</h2>
+      </section>
     </div>
   );
 }
