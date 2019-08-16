@@ -8,11 +8,11 @@ function App() {
       <header>
         <h1>Inside Out fitness app</h1>
         <div>
-          <a>Login</a> | <a>Signup</a>
+          <a href="/">Login</a> | <a href="/">Signup</a>
         </div>
       </header>
       <section>
-        <h2>Recipes</h2>
+        <h2>Healthy Recipes</h2>
         <div className="recipes">
           <a href="/">
             <figure>
@@ -34,8 +34,28 @@ function App() {
           </a>
         </div>
       </section>
-      <section className="exercises">
+      <section>
         <h2>Exercises</h2>
+        <div className="exercises">
+          <a href="/">
+            <figure>
+              <img src="https://www.fillmurray.com/150/150" />
+              <figcaption>Incline Bench Press</figcaption>
+            </figure>
+          </a>
+          <a href="/">
+            <figure>
+              <img src="https://www.fillmurray.com/150/150" />
+              <figcaption>Romanian Deadlift</figcaption>
+            </figure>
+          </a>
+          <a href="/">
+            <figure>
+              <img src="https://www.fillmurray.com/150/150" />
+              <figcaption>Overhead Tricep Extension</figcaption>
+            </figure>
+          </a>
+        </div>
       </section>
     </div>
   );

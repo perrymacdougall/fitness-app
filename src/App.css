@@ -9,27 +9,44 @@ h2 {
 header {
   display: flex;
   justify-content: space-between;
+  background-color: #000;
+  color: white;
+  padding: 20px;
 }
 
-.recipes {
+header div {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.recipes, .exercises {
   display: flex;
   justify-content: center;
 }
 
-.recipes a {
+.recipes a, .exercises a {
   text-decoration: none;
 }
-.recipes a:hover {
+.recipes a:hover, .exercises a:hover {
   opacity: 0.5;
 }
 
-.recipes figure {
+.recipes figure, .exercises figure {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.recipes figcaption {
+.recipes figcaption, .exercises figcaption {
+  max-width: 160px;
   text-align: center;
 }
