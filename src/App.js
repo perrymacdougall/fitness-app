@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -16,20 +15,20 @@ function App() {
         <div className="recipes">
           <a href="/">
             <figure>
-              <img src="https://www.fillmurray.com/150/150" />
+              <img src="https://www.fillmurray.com/150/150" alt="Quinoa and Kale Salad"/>
               <figcaption>Quinoa and Kale Salad</figcaption>
             </figure>
           </a>
           <a href="/">
             <figure>
-              <img src="https://www.fillmurray.com/150/150" />
+              <img src="https://www.fillmurray.com/150/150" alt="Chicken Tikka Masala"/>
               <figcaption>Chicken Tikka Masala</figcaption>
             </figure>
           </a>
           <a href="/">
             <figure>
-              <img src="https://www.fillmurray.com/150/150" />
-              <figcaption>Creamy Broccoli and Cheddar with Herbs</figcaption>
+              <img src="https://www.fillmurray.com/150/150" alt="Creamy Broccoli with Cheddar and Herbs"/>
+              <figcaption>Creamy Broccoli with Cheddar and Herbs</figcaption>
             </figure>
           </a>
         </div>
@@ -39,19 +38,19 @@ function App() {
         <div className="exercises">
           <a href="/">
             <figure>
-              <img src="https://www.fillmurray.com/150/150" />
+              <img src="https://www.fillmurray.com/150/150" alt="Incline Bench Press"/>
               <figcaption>Incline Bench Press</figcaption>
             </figure>
           </a>
           <a href="/">
             <figure>
-              <img src="https://www.fillmurray.com/150/150" />
+              <img src="https://www.fillmurray.com/150/150" alt="Romanian Deadlift"/>
               <figcaption>Romanian Deadlift</figcaption>
             </figure>
           </a>
           <a href="/">
             <figure>
-              <img src="https://www.fillmurray.com/150/150" />
+              <img src="https://www.fillmurray.com/150/150" alt="Overhead Tricep Extension"/>
               <figcaption>Overhead Tricep Extension</figcaption>
             </figure>
           </a>
