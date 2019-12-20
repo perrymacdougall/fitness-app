@@ -6,6 +6,7 @@ const Recipe = new Schema({
         type: String,
         required: true
     },
+    ingredients: [String],
     calories: {
         type: Number,
         required: true
